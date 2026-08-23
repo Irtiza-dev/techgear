@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pro Gaming Mouse X200 | TechGear</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="container">
+    <div class="logo">TechGear</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- Product Detail -->
+<section class="product-detail fade-in">
+  <div class="container product-detail-grid">
+
+    <img src="images/mouse.png" alt="Pro Gaming Mouse X200" class="detail-img">
+
+    <div class="detail-info">
+      <h1>Pro Gaming Mouse X200</h1>
+      <p class="price">$89</p>
+      <p>
+        The Pro Gaming Mouse X200 offers precision, speed, and comfort for all gamers.
+        Ergonomic design, customizable RGB lighting, and high DPI make it perfect for pro gaming.
+      </p>
+
+      <ul>
+        <li>✔ Adjustable DPI up to 16000</li>
+        <li>✔ RGB lighting customization</li>
+        <li>✔ Ergonomic for long sessions</li>
+      </ul>
+
+      <button class="btn btn-hero" onclick="addToCart()">Add to Cart</button>
+      <p class="demo-note">* Demo project – cart functionality coming soon</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2026 TechGear. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<script>
+function addToCart() {
+  alert("This is a demo project. Cart functionality coming soon!");
+}
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.fade-in').forEach(el => el.classList.add('show'));
+});
+</script>
+
+</body>
+</html>
